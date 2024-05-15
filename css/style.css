@@ -1,0 +1,260 @@
+/*reset*/
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+   
+}
+body{
+    
+    background-color:#F1F1F1;
+    color: #080808;
+    font-family: "Nanum Gothic", sans-serif; 
+    font-size: 400; 
+    font-style: normal;
+    text-align: center;
+  
+}
+header {
+    
+    gap: 50px;
+    background-color: #F1F1F1;
+    color:#080808;
+    display:flex;
+    justify-content:baseline;
+    flex-wrap: wrap;
+   
+}
+header img{
+    width: 100%;
+    margin-right: 30px;
+    align-items: center;
+}
+
+header nav ul{
+    list-style: none;
+    display: flex;
+    margin: 30px;
+    gap: 50px;
+}
+
+
+.galeria{
+    color: #507281;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+    margin: 15px;
+}
+
+.servicios{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 10px ;
+    
+}
+
+main {
+    text-align: center;
+    margin: 10px 30px ;
+    padding: 100px;
+    }
+.cordoba{
+    font-family: "Sedan SC", serif; 
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 60px 50px;
+    gap: 20%;
+}
+.descanso{
+    background-color: #507281;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 20px;
+    padding: 30px;
+    font-family: "Sedan SC", serif; 
+    font-size: 50px;
+    font-style: normal;
+}
+main nav ul{
+    list-style: none;
+    text-align:center;
+    font-size: 20px;
+    background-color: #d1ebf7;
+    color: #080808;
+    
+
+}
+.whatsapp{
+    display: flex;
+    justify-content: center;
+    margin: 70px;
+    width: 30px;
+    height: 40px;
+    flex-wrap: wrap;
+    gap: 10px;
+   
+}
+.mail{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin: 70px;
+    flex-wrap: wrap;
+    width: 30px;
+    height: 40px;
+    gap: 10px;
+}
+.pet1{
+    width: 40px;
+    margin:10px;
+    
+}
+.pet{
+    
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    margin: 40px;
+    padding: 10px;
+    align-items: center;
+
+}
+.parrafo{
+   
+    color: #080808;
+    font-family: "Nanum Gothic", sans-serif; 
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin: 10%;
+
+}
+
+.ubicacion{
+    text-align: center;
+    display: block;
+    justify-content: center;
+    font-size: large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+.lugar{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 10%;
+    
+}
+main div img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+.mujer{
+    width: 100%;
+}
+
+    
+
+.fotos {
+    margin: 0%;
+    padding: 30px;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 5fr 5fr 5fr 5fr;
+    grid-template-rows:repeat( 4, 25%);
+    row-gap: 15px;
+    column-gap: 10px;
+    align-content: center;
+}
+.uno:hover{
+    transform: scale(2);
+}
+.contacto{
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+    padding: 10px;
+}
+#info{
+    
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    margin: 50px;
+    gap: 10px;
+    
+}
+.boot{
+    display: flex;
+    justify-content: center;
+    margin: 100px;
+}
+.deposito{
+    background-color: #507281;
+    color: #FFFFFF;
+    text-decoration:dotted;
+    margin: 50px;
+    padding: 30px;
+}
+
+
+
+
+
+footer{
+    background-color: #ABABAB;
+    color:#080808 ;
+    text-align: center;
+}
+/*mq mobile, nose si estan bien aplicados*/
+@media screen and (min-width: 320px) {
+   
+header img{
+    display: flex;
+
+    margin-right: 30px;
+    
+}
+    
+ header nav ul {
+    display: flex;
+    justify-content: left;
+    margin: 5px;
+    padding: 5px;
+    gap: 5px;
+ 
+    
+  
+ }
+        
+}
+
+
+/*mq desktop*/
+
+@media screen and (min-width: 1280px){
+header img { 
+    display: flex;
+    justify-content: center;
+    margin: 0%;
+    padding: 20px;
+}
+header nav ul  {
+    display: flex;
+    justify-content: left;
+    margin: 20px;
+    
+}
+}
+    
+
+
