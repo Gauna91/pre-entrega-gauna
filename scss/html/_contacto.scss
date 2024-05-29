@@ -1,0 +1,61 @@
+
+
+
+.whatsapp{
+    display: flex;
+    justify-content: center;
+    margin: 70px;
+    width: 30px;
+    height: 40px;
+    flex-wrap: wrap;
+    gap: 10px;
+   
+ }
+ .mail{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin: 70px;
+    flex-wrap: wrap;
+    width: 30px;
+    height: 40px;
+    gap: 10px;
+ }
+ .contacto{
+    display: flex;
+    justify-content: center;
+    margin: 50px -80px ;
+    padding: 30px;
+    text-align: center;
+    align-items: center;
+    font-family: "Nanum Gothic", sans-serif; ;
+    background-color: #ABABAB;
+    
+ }
+ .lugar{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+    font-size: 15px;
+    font-family: $family-primary; 
+
+ }
+
+#info{
+   
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    margin: 50px;
+    gap: 10px;
+    font-size: small
+}
+.deposito{
+    background-color: #507281;
+    color: #FFFFFF;
+    text-decoration:dotted;
+    margin: 50px;
+    padding: 30px;
+ }

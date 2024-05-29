@@ -1,0 +1,273 @@
+/*reset*/
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #F1F1F1;
+  color: #080808;
+  font-family: "Nanum Gothic", sans-serif;
+  font-size: 400;
+  font-style: normal;
+  text-align: center;
+}
+
+header {
+  background-color: #F1F1F1;
+  color: #080808;
+}
+
+header img {
+  width: 100%;
+  margin: auto;
+}
+
+.navbar {
+  background-color: #F1F1F1;
+}
+
+.aerosilla {
+  margin: auto;
+  padding: 30px;
+  text-align: center;
+  font-size: 20px;
+}
+
+.servicios {
+  width: 100%;
+  min-width: 320px;
+  display: block;
+  padding: 50px;
+}
+
+.galeria {
+  color: #507281;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  padding: 100px;
+  margin: 15px;
+}
+
+.comodidades {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 10px;
+}
+
+main {
+  text-align: center;
+  margin: 10px 30px;
+  padding: 100px;
+}
+
+.cordoba {
+  font-family: "Sedan SC", serif;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  gap: 50px;
+  margin: auto;
+  padding: 50px;
+}
+
+.descanso {
+  background-color: #507281;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+  padding: 80px 60px 80px 60px;
+  font-family: "Sedan SC", serif;
+  font-size: 20px;
+}
+
+main nav ul {
+  list-style: none;
+  text-align: center;
+  font-size: 20px;
+  background-color: #d1ebf7;
+  color: #080808;
+}
+
+.whatsapp {
+  display: flex;
+  justify-content: center;
+  margin: 70px;
+  width: 30px;
+  height: 40px;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.mail {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 70px;
+  flex-wrap: wrap;
+  width: 30px;
+  height: 40px;
+  gap: 10px;
+}
+
+.pet1 {
+  width: 30px;
+  margin: 10px;
+}
+
+.pet {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+  padding: 10px;
+  align-items: center;
+  text-align: center;
+}
+
+.parrafo {
+  color: #080808;
+  font-family: "Nanum Gothic", sans-serif;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin: 10%;
+}
+
+.ubicacion {
+  text-align: center;
+  display: block;
+  justify-content: center;
+  font-size: large;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-style: italic;
+}
+
+.lugar {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+  padding: 30px;
+  font-size: 15px;
+}
+
+main div img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.mujer {
+  width: 80%;
+}
+
+.fotos {
+  margin: 0%;
+  padding: 30px;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 5fr 5fr 5fr 5fr;
+  grid-template-rows: repeat(4, 25%);
+  row-gap: 15px;
+  column-gap: 10px;
+  align-content: center;
+}
+
+.uno:hover {
+  transform: scale(2);
+}
+
+.contacto {
+  display: flex;
+  justify-content: center;
+  margin: 50px;
+  padding: 10px;
+  text-align: center;
+  align-items: center;
+}
+
+#info {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  margin: 50px;
+  gap: 10px;
+}
+
+.boot {
+  display: flex;
+  justify-content: center;
+  margin: 100px;
+}
+
+.deposito {
+  background-color: #507281;
+  color: #FFFFFF;
+  text-decoration: dotted;
+  margin: 50px;
+  padding: 30px;
+}
+
+.iframe {
+  display: block;
+  justify-content: center;
+  align-items: center;
+}
+
+footer {
+  background-color: #ABABAB;
+  color: #080808;
+  text-align: center;
+}
+
+@media only screen and (max-width: 780px) {
+  .cordoba {
+    font-size: 18px;
+  }
+  .aerosilla {
+    margin: auto;
+    padding: 5px;
+    text-align: center;
+    font-size: 15px;
+  }
+  .servicios {
+    width: 100%;
+    align-items: center;
+    margin: 50px -70px;
+    padding: 20px 50px 50px 0px;
+  }
+  .contacto {
+    font-size: 15px;
+    text-align: center;
+  }
+  .iframe {
+    width: 100%;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin: 50px -150px;
+  }
+  .deposito {
+    text-align: center;
+    font-size: 12px;
+    margin: 3px;
+    padding: 2px;
+  }
+}
+@media only screen and (min-width: 781px) and (max-widht: 1280px) {
+  .aerosilla {
+    margin: auto;
+    padding: 30px;
+    text-align: center;
+  }
+}
+
+/*# sourceMappingURL=style-css.map */
