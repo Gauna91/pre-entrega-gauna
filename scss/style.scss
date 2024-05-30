@@ -3,6 +3,7 @@
 @import "html/contacto";
 @import "html/mediaquery";
 @import "utilidades/variables";
+@import "utilidades/mixin";
 
 * {
    margin: 0%;
@@ -12,7 +13,7 @@
 
 body{
    
-   background-color: $backcolor-principal;
+   background-color: $back-principal;
    color: $color-primary;
    font-family: "Nanum Gothic", sans-serif; 
    font-size: 400; 
@@ -21,7 +22,7 @@ body{
 
 }
 header{
-   background-color: $backcolor-principal;
+   background-color:$back-principal;
    color: $color-primary;
    //propiedad de items
    img{
@@ -29,7 +30,7 @@ header{
       margin: auto;
 }
 .navbar{
-   background-color: $backcolor-principal;
+   background-color:$back-principal;
 }
 }
 
@@ -37,9 +38,7 @@ header{
 
 .galeria{
    color: $color-secundary;
-   text-align: center;
-   display: flex;
-   justify-content: center;
+   @include flex;
    padding: 100px;
    margin: 15px;
 }
@@ -52,7 +51,7 @@ main {
    padding: 100px;
    nav{
       ul{
-         list-style: none;
+       list-style: none;
        text-align:center;
        font-size: 20px;
        background-color: #d1ebf7;
@@ -61,7 +60,7 @@ main {
       }
    }
    h1{
-      color: $color-secundary;
+      color:$color-secundary;
       font-family: Georgia, 'Times New Roman', Times, serif;
       font-size: 25px;
    }
@@ -77,13 +76,12 @@ main {
       
       .descanso{
          background-color: $color-secundary;
-         display: flex;
-         justify-content: center;
-         text-align:center;
+         @include flex;
          margin:10px -30px;
          padding: 50px 80px 50px 80px;
-         font-family: $family-primary; 
+         font-family: $font-primary; 
          font-size: 25px;
+         
       }
    }
    p{
@@ -123,7 +121,6 @@ main {
             justify-content: center;
             align-items: center;
             width: 100%;
-            
             margin: 10px -10px;
          }
       }
@@ -133,11 +130,9 @@ main {
    }
    
    .cordoba{
-      font-family: $family-primary; 
+      font-family:$font-primary; 
       font-size: 15px;
-      display: flex;
-      justify-content: center;
-      text-align: center;
+      @include flex;
       gap: 30px;
       margin: 20px 10px 20px 10px;
       padding: 5px;
@@ -156,18 +151,15 @@ main {
    .pet{
       font-family:Verdana, Geneva, Tahoma, sans-serif;
       font-size: 15px;
-      display: flex;
-      justify-content: center;
+      @include flex;
       margin: 10px ;
       padding: 10px;
       align-items: center;
-      text-align: center;
+      
 
    }
    .comodidades{
-      text-align: center;
-      display: flex;
-      justify-content: center;
+      @include flex;
       flex-wrap: wrap;
       margin: 10px ;
       font-size: small;
@@ -183,11 +175,9 @@ main {
 
 .parrafo{
   
-   color: $color-primary;
+   color:$color-primary;
    font-family: "Nanum Gothic", sans-serif; 
-   text-align: center;
-   display: flex;
-   justify-content: center;
+   @include flex;
    margin: 10%;
 
 }
