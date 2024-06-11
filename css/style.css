@@ -163,7 +163,7 @@ main p .pet1 {
   margin: 10px;
 }
 main div .uno:hover {
-  transform: scale(3);
+  transform: scale(2);
 }
 main section .aerosilla {
   margin: auto;
